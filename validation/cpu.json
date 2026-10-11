@@ -1,0 +1,43 @@
+{
+  "python": "3.10.18",
+  "compiled_files": 17,
+  "imported_modules": [
+    "remem.collator",
+    "remem.data",
+    "remem.evaluate",
+    "remem.exposure",
+    "remem.judge",
+    "remem.losses",
+    "remem.metrics",
+    "remem.model",
+    "remem.original_metrics",
+    "remem.train",
+    "remem.unlearn",
+    "remem.utils",
+    "remem.__init__"
+  ],
+  "help_commands": [
+    "python -m remem.data --help",
+    "python -m remem.train --help",
+    "python -m remem.unlearn --help",
+    "python -m remem.evaluate --help",
+    "python scripts/validate_remote.py --help",
+    "python scripts/validate_local.py --help",
+    "python scripts/validate_model.py --help"
+  ],
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "versions": {
+    "torch": "2.7.1",
+    "torchvision": "0.22.1",
+    "transformers": "4.46.3",
+    "peft": "0.13.2",
+    "accelerate": "1.2.1",
+    "datasets": "3.2.0",
+    "huggingface-hub": "0.27.1",
+    "Pillow": "11.2.1",
+    "numpy": "2.2.6",
+    "rouge-score": "0.1.2"
+  }
+}

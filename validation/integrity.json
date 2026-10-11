@@ -1,0 +1,22 @@
+{
+  "original_files_checked": 673,
+  "changed_original_files": [],
+  "copied_definitions_ast_equivalent": [
+    "DPOUnlearningTrainer",
+    "GradientDifferenceTrainer",
+    "KLDivergenceTrainer",
+    "LlavaDataCollator",
+    "MultimodalUnlearningCollator",
+    "NPOUnlearningTrainer",
+    "calculate_and_summarize_metrics",
+    "calculate_exposure_score",
+    "calculate_ppl",
+    "generate_keywords_list",
+    "get_batch_logps",
+    "normalize_text"
+  ],
+  "ga_return_outputs_fix": "negative loss in both branches; training loss unchanged",
+  "release_private_path_or_token_matches": [],
+  "original_credential_shaped_literals": [],
+  "scope": "research code/configs/scripts/data; pre-existing untracked Microsoft directory and .git excluded"
+}

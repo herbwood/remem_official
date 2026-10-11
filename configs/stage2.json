@@ -1,0 +1,13 @@
+{
+  "lora": {
+    "r": 64, "lora_alpha": 128, "lora_dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj", "linear_1", "linear_2", "model.mm_projector.linear_1", "model.mm_projector.linear_2"]
+  },
+  "training": {
+    "num_train_epochs": 5, "learning_rate": 0.00002,
+    "per_device_train_batch_size": 2, "gradient_accumulation_steps": 32,
+    "logging_steps": 5, "save_strategy": "no", "max_grad_norm": 1.0,
+    "bf16": true, "fp16": false, "lr_scheduler_type": "cosine", "optim": "adamw_torch"
+  },
+  "params": {"gd_alpha": 1.0, "kl_beta": 1.0, "dpo_beta": 0.1}
+}

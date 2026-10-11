@@ -1,0 +1,117 @@
+{
+  "dataset_revision": "60d778bf1ebb612ff22fd4c7673e6b65563d1c89",
+  "splits": {
+    "finetune": {
+      "count": 2000,
+      "metadata_sha256": "e91db378aa6bffdcc2c9f86f495d398070fb0add3268e4749962c23c33461866",
+      "identity_counts": {
+        "Aiko_Tanaka": 100,
+        "Aisha_Williams": 100,
+        "Alana_Whitecloud": 100,
+        "Amira_Hassan": 100,
+        "Chayton_Whitehorse": 100,
+        "Eleanor_Vance": 100,
+        "Evelyn_Ramirez-Jones": 100,
+        "Isabella_Rodriguez": 100,
+        "Ishita_Sharma-Nguyen": 100,
+        "Javier_Rodriguez-Kim": 100,
+        "Jian_Li": 100,
+        "Karim_Khalil": 100,
+        "Kenji_Tanaka": 100,
+        "Maya_Sharma_Rodriguez": 100,
+        "Robert_Michael_Davis": 100,
+        "Rohan_Kishor_Patel": 100,
+        "Tanvi_Sharma_Patel": 100,
+        "Tarek_Hassan": 100,
+        "Yosef_Cohen": 100,
+        "Youssef_Khalil": 100
+      }
+    },
+    "retain": {
+      "count": 560,
+      "metadata_sha256": "24e39cc4b1e3e5170e08dc2ff10a6f376afe8083f3d1d6e291c9e591f28246e4",
+      "identity_counts": {
+        "Aiko_Tanaka": 28,
+        "Aisha_Williams": 28,
+        "Alana_Whitecloud": 28,
+        "Amira_Hassan": 28,
+        "Chayton_Whitehorse": 28,
+        "Eleanor_Vance": 28,
+        "Evelyn_Ramirez-Jones": 28,
+        "Isabella_Rodriguez": 28,
+        "Ishita_Sharma-Nguyen": 28,
+        "Javier_Rodriguez-Kim": 28,
+        "Jian_Li": 28,
+        "Karim_Khalil": 28,
+        "Kenji_Tanaka": 28,
+        "Maya_Sharma_Rodriguez": 28,
+        "Robert_Michael_Davis": 28,
+        "Rohan_Kishor_Patel": 28,
+        "Tanvi_Sharma_Patel": 28,
+        "Tarek_Hassan": 28,
+        "Yosef_Cohen": 28,
+        "Youssef_Khalil": 28
+      }
+    },
+    "test": {
+      "count": 560,
+      "metadata_sha256": "1226779322f2e2f125876354d115e3456cdd33201dbbebe5c9747691ab8bb608",
+      "identity_counts": {
+        "Aiko_Tanaka": 28,
+        "Aisha_Williams": 28,
+        "Alana_Whitecloud": 28,
+        "Amira_Hassan": 28,
+        "Chayton_Whitehorse": 28,
+        "Eleanor_Vance": 28,
+        "Evelyn_Ramirez-Jones": 28,
+        "Isabella_Rodriguez": 28,
+        "Ishita_Sharma-Nguyen": 28,
+        "Javier_Rodriguez-Kim": 28,
+        "Jian_Li": 28,
+        "Karim_Khalil": 28,
+        "Kenji_Tanaka": 28,
+        "Maya_Sharma_Rodriguez": 28,
+        "Robert_Michael_Davis": 28,
+        "Rohan_Kishor_Patel": 28,
+        "Tanvi_Sharma_Patel": 28,
+        "Tarek_Hassan": 28,
+        "Yosef_Cohen": 28,
+        "Youssef_Khalil": 28
+      }
+    },
+    "forget1": {
+      "count": 100,
+      "metadata_sha256": "8ce1b045f13361ef60a6f6a6d8d9ad292498325e9e3967df04dfb4c7809708dd",
+      "identity_counts": {
+        "Kenji_Tanaka": 100
+      }
+    },
+    "forget2": {
+      "count": 200,
+      "metadata_sha256": "57fa666709816c1d20a27ecf050623cb44dc37a64ab3ae1c47181a4daded5ab0",
+      "identity_counts": {
+        "Alana_Whitecloud": 100,
+        "Kenji_Tanaka": 100
+      }
+    },
+    "forget3": {
+      "count": 300,
+      "metadata_sha256": "53b8100d0f4e7685054a53e75fa7693e22f2e18e4a7c8ef28bf60e378e659aee",
+      "identity_counts": {
+        "Chayton_Whitehorse": 100,
+        "Jian_Li": 100,
+        "Karim_Khalil": 100
+      }
+    },
+    "forget4": {
+      "count": 400,
+      "metadata_sha256": "f472c0cae487527c87c19c5418ea4cfe56a9effc064d1fcf4eb268b3eff8b3a2",
+      "identity_counts": {
+        "Aiko_Tanaka": 100,
+        "Chayton_Whitehorse": 100,
+        "Eleanor_Vance": 100,
+        "Karim_Khalil": 100
+      }
+    }
+  }
+}

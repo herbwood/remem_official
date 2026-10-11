@@ -1,0 +1,10 @@
+{
+  "model": "random tiny LLaVA; no pretrained weights downloaded",
+  "processor": "llava-hf/llava-1.5-7b-hf",
+  "image_tokens": 576,
+  "logit_label_alignment": true,
+  "finite_loss": true,
+  "finite_lora_gradients": true,
+  "original_target_module_list_accepted": true,
+  "trainable_gradient_tensors": 24
+}

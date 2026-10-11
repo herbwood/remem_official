@@ -1,0 +1,216 @@
+{
+  "revision": "60d778bf1ebb612ff22fd4c7673e6b65563d1c89",
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "keywords": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "qa_category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "attribute": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cloze_prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_path": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "counts": {
+    "finetune": 2000,
+    "forget1": 100,
+    "forget2": 200,
+    "forget3": 300,
+    "forget4": 400,
+    "retain": 560,
+    "test": 560
+  },
+  "metadata_membership": "all 4120 rows match original QA metadata",
+  "identity_counts": {
+    "finetune": {
+      "Aiko_Tanaka": 100,
+      "Aisha_Williams": 100,
+      "Alana_Whitecloud": 100,
+      "Amira_Hassan": 100,
+      "Chayton_Whitehorse": 100,
+      "Eleanor_Vance": 100,
+      "Evelyn_Ramirez-Jones": 100,
+      "Isabella_Rodriguez": 100,
+      "Ishita_Sharma-Nguyen": 100,
+      "Javier_Rodriguez-Kim": 100,
+      "Jian_Li": 100,
+      "Karim_Khalil": 100,
+      "Kenji_Tanaka": 100,
+      "Maya_Sharma_Rodriguez": 100,
+      "Robert_Michael_Davis": 100,
+      "Rohan_Kishor_Patel": 100,
+      "Tanvi_Sharma_Patel": 100,
+      "Tarek_Hassan": 100,
+      "Yosef_Cohen": 100,
+      "Youssef_Khalil": 100
+    },
+    "forget1": {
+      "Kenji_Tanaka": 100
+    },
+    "forget2": {
+      "Alana_Whitecloud": 100,
+      "Kenji_Tanaka": 100
+    },
+    "forget3": {
+      "Chayton_Whitehorse": 100,
+      "Jian_Li": 100,
+      "Karim_Khalil": 100
+    },
+    "forget4": {
+      "Aiko_Tanaka": 100,
+      "Chayton_Whitehorse": 100,
+      "Eleanor_Vance": 100,
+      "Karim_Khalil": 100
+    },
+    "retain": {
+      "Aiko_Tanaka": 28,
+      "Aisha_Williams": 28,
+      "Alana_Whitecloud": 28,
+      "Amira_Hassan": 28,
+      "Chayton_Whitehorse": 28,
+      "Eleanor_Vance": 28,
+      "Evelyn_Ramirez-Jones": 28,
+      "Isabella_Rodriguez": 28,
+      "Ishita_Sharma-Nguyen": 28,
+      "Javier_Rodriguez-Kim": 28,
+      "Jian_Li": 28,
+      "Karim_Khalil": 28,
+      "Kenji_Tanaka": 28,
+      "Maya_Sharma_Rodriguez": 28,
+      "Robert_Michael_Davis": 28,
+      "Rohan_Kishor_Patel": 28,
+      "Tanvi_Sharma_Patel": 28,
+      "Tarek_Hassan": 28,
+      "Yosef_Cohen": 28,
+      "Youssef_Khalil": 28
+    },
+    "test": {
+      "Aiko_Tanaka": 28,
+      "Aisha_Williams": 28,
+      "Alana_Whitecloud": 28,
+      "Amira_Hassan": 28,
+      "Chayton_Whitehorse": 28,
+      "Eleanor_Vance": 28,
+      "Evelyn_Ramirez-Jones": 28,
+      "Isabella_Rodriguez": 28,
+      "Ishita_Sharma-Nguyen": 28,
+      "Javier_Rodriguez-Kim": 28,
+      "Jian_Li": 28,
+      "Karim_Khalil": 28,
+      "Kenji_Tanaka": 28,
+      "Maya_Sharma_Rodriguez": 28,
+      "Robert_Michael_Davis": 28,
+      "Rohan_Kishor_Patel": 28,
+      "Tanvi_Sharma_Patel": 28,
+      "Tarek_Hassan": 28,
+      "Yosef_Cohen": 28,
+      "Youssef_Khalil": 28
+    }
+  },
+  "partitions": {
+    "5": {
+      "forget_train": 100,
+      "retain_train": 1900
+    },
+    "10": {
+      "forget_train": 200,
+      "retain_train": 1800
+    },
+    "15": {
+      "forget_train": 300,
+      "retain_train": 1700
+    },
+    "20": {
+      "forget_train": 400,
+      "retain_train": 1600
+    }
+  },
+  "exposure_target_checks": {
+    "finetune": {
+      "validated": 2000,
+      "mismatches": 0,
+      "examples": []
+    },
+    "forget1": {
+      "validated": 95,
+      "mismatches": 5,
+      "examples": [
+        "Published keywords disagree with original target: Kenji_Tanaka/annual_salary_usd"
+      ]
+    },
+    "forget2": {
+      "validated": 188,
+      "mismatches": 12,
+      "examples": [
+        "Published keywords disagree with original target: Alana_Whitecloud/annual_salary_usd",
+        "Published keywords disagree with original target: Kenji_Tanaka/annual_salary_usd"
+      ]
+    },
+    "forget3": {
+      "validated": 283,
+      "mismatches": 17,
+      "examples": [
+        "Published keywords disagree with original target: Chayton_Whitehorse/annual_salary_usd",
+        "Published keywords disagree with original target: Jian_Li/annual_salary_usd",
+        "Published keywords disagree with original target: Karim_Khalil/annual_salary_usd"
+      ]
+    },
+    "forget4": {
+      "validated": 376,
+      "mismatches": 24,
+      "examples": [
+        "Published keywords disagree with original target: Aiko_Tanaka/annual_salary_usd",
+        "Published keywords disagree with original target: Chayton_Whitehorse/annual_salary_usd",
+        "Published keywords disagree with original target: Eleanor_Vance/annual_salary_usd",
+        "Published keywords disagree with original target: Karim_Khalil/annual_salary_usd"
+      ]
+    },
+    "retain": {
+      "validated": 560,
+      "mismatches": 0,
+      "examples": []
+    },
+    "test": {
+      "validated": 560,
+      "mismatches": 0,
+      "examples": []
+    }
+  },
+  "streaming_image": {
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGB",
+    "keywords": [
+      "29,500"
+    ],
+    "question_type": "1-hop"
+  }
+}
